@@ -21,3 +21,65 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+/* Stroke text which is used in the hero section  and be used throughout the app */
+ 
+.stroke-text{
+  -webkit-text-stroke: 1px var(--dark-gray);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+  font-size: 4.0rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-overflow: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-heading>div:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-button {
+  gap: 2rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 4px solid var(--dark-gray);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-buttons>:nth-child(1) {
+  color: var(--white);
+  border: 2px solid var(--orange);
+  background-color: #f48915;
+}
+
+.hero-buttons>:nth-child(2) {
+  color: white;
+  background-color: transparent;
+  width: fit-content;
+  border: 2px solid var(--orange);
+}
+
+.hero-button:hover {
+  background-color: var(--appColor);
+  color: white;
+  cursor: pointer;
+}
+
+.hero-buttons>:nth-child(2):hover {
+  background-color: var(--orange);
+  color: white;
+  cursor: pointer;
+}

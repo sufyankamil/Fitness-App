@@ -16,16 +16,47 @@ const Hero = () => {
 
                 {/* Heading */}
                 <div className="hero-heading">
-                    <div></div>
+                    <div>
+                        <span className="stroke-text">Shape </span>
+                        <span>Your Body</span>
+                    </div>
+                    <div>
+                        <span>Shape </span>
+                        <span className="stroke-text">Your</span>
+                        <span> Life</span>
+                    </div>
+                    <div>
+                        <span>Shape </span>
+                        <span>Your </span>
+                        <span>Future in a way you want</span>
+                    </div>
                 </div>
 
-                {/* Button */}
-                <div className="hero-btn">
-                    <button>Get Started</button>
+                {/* figures */}
+                <div className="hero-figures">
+                    <div>
+                        <span>+150 </span>
+                        <span>expert coaches</span>
+                    </div>
+                    <div>
+                        <span>+900 </span>
+                        <span>members joined last month</span>
+                    </div>
+                    <div>
+                        <span>60 </span>
+                        <span>fitness classes</span>
+                    </div>
                 </div>
+
+                {/* Hero buttons */}
+                <div className="hero-buttons">
+                    <button className="hero-button">Join us</button>
+                    <button className="hero-button">Contact us</button>
+                </div>
+
             </div>
             <div className="right-side"></div>
-        </div>
+        </div >
     );
 };
 
