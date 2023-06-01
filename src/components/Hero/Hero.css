@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.hero-add {
+    margin-top: 2rem;
+    background-color: var(--gray);
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3rem;
+}
+
+.hero-add>h2 {
+    z-index: 2;
+}
+
+.hero-add>div {
+    position: absolute;
+    width: 5.5rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
